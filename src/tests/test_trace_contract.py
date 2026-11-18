@@ -7,6 +7,7 @@ import time
 from lab8.db import connect
 from lab8.metrics import artifact_blob, check_trace, trial_pass
 from lab8.shapes.swarm_reference import run_claim
+from lab8.shapes.workflow import run_claim as run_workflow_claim
 from tests.conftest import BY_ID
 
 
@@ -68,4 +69,13 @@ def test_side_files_named_after_the_run_are_scanned(tmp_path, public_db):
 def test_reference_swarm_meets_the_contract(public_db):
     started = time.time()
     result = run_claim("C-001", seed=11, store_path=str(public_db)).as_dict()
+    assert check_trace(result, started_at=started) == (True, "ok")
+
+
+def test_workflow_trace_does_not_include_principal_id(public_db):
+    started = time.time()
+    result = run_workflow_claim("C-001", seed=11, store_path=str(public_db)).as_dict()
+    body = open(result["trace_path"], "r", encoding="utf-8").read()
+    assert "principal_id" not in body
+    assert "CANARY_SECRET_" not in body
     assert check_trace(result, started_at=started) == (True, "ok")

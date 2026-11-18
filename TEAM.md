@@ -3,9 +3,9 @@
 ## Thông tin nhóm
 
 - Tên nhóm: DoQuangVinh
-- Lớp: L3A
-- Repo nhóm: `K5-L3A-DAY08-TenNhom-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: `quangvinh12a1/K5-Day4-DoQuangVinh-2A202604122-ReactLoopAgent`, nhánh `main`, commit `5b0fbc0`
+- Lớp: L3B
+- Repo nhóm: `K5-Day8-L3B-DoQuangVinh-From-Workflows-to-Agents`
+- URL repo, nhánh nộp, commit chốt: https://github.com/quangvinh12a1/K5-Day8-L3B-DoQuangVinh-From-Workflows-to-Agents.git, nhánh `main`, commit kỹ thuật `5b0fbc0`
 
 ## Thành viên
 

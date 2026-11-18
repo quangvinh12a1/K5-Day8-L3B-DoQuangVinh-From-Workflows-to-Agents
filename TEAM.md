@@ -5,7 +5,7 @@
 - Tên nhóm: DoQuangVinh
 - Lớp: L3A
 - Repo nhóm: `K5-L3A-DAY08-TenNhom-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: `quangvinh12a1/K5-Day4-DoQuangVinh-2A202604122-ReactLoopAgent`, nhánh `main`
+- URL repo, nhánh nộp, commit chốt: `quangvinh12a1/K5-Day4-DoQuangVinh-2A202604122-ReactLoopAgent`, nhánh `main`, commit `5b0fbc0`
 
 ## Thành viên
 
@@ -24,7 +24,7 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| Đỗ Quang Vinh | Integration, workflow, single, orchestrator, eval và báo cáo | sẽ điền sau commit | `tests/test_trace_contract.py::test_workflow_trace_does_not_include_principal_id` |
+| Đỗ Quang Vinh | Integration, workflow, single, orchestrator, eval và báo cáo | `5b0fbc0` | `tests/test_trace_contract.py::test_workflow_trace_does_not_include_principal_id` |
 
 ## Cá nhân
 

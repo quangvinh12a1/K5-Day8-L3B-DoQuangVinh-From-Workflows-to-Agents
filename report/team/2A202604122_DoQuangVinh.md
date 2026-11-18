@@ -18,6 +18,7 @@ Integration, ba shape workflow/single/orchestrator, test, benchmark, crash suite
 - Hoàn thiện `orchestrator.py` bằng handoff sanitize và investigator read-only.
 - Thêm test trace xác nhận không ghi `principal_id` hoặc secret.
 - Chạy public matrix, cổng host mặc định, handoff/crash và benchmark.
+- Commit kỹ thuật chính: `5b0fbc0`.
 
 ## 4. Bằng chứng
 

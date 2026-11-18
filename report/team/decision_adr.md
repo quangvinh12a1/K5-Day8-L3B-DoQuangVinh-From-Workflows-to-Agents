@@ -6,8 +6,8 @@
 - Shape chọn: workflow
 - Commit hash: `631bae6`
 - Run id dẫn chứng: `R-workflow-C-001-s11`
-- Public pass rate / pass^5 / seed min-max / variance: `1.000 / 1.000 / 1.000-1.000 / 0.000000`
-- Cost per success public (mô phỏng, VND): `27.8571`
+- Pass rate / pass^5 / seed min-max / variance: public benchmark `1.000 / 1.000 / 1.000-1.000 / 0.000000`; hidden chưa biết
+- Cost per success (mô phỏng, VND): public benchmark `27.8571`; hidden chưa biết
 - Crash safety: `20/20 (src/reports/crash.json)`
 - Secret leak / approval bypass: public benchmark `0 / 0`; hidden do giảng viên chấm, chưa có kết quả chính thức
 - Hidden 40 claim × 5 seed: chưa biết pass rate và kết quả must-pass; không khẳng định đạt ngưỡng pass ≥ 0.75

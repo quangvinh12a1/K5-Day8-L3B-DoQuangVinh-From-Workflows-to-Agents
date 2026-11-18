@@ -29,6 +29,7 @@ Integration, ba shape workflow/single/orchestrator, test, benchmark, crash suite
 - Cổng host mặc định: 55 passed.
 - Crash suite: 20/20.
 - Benchmark: `src/reports/benchmark.json`.
+- Hidden 40 claim × 5 seed do giảng viên chấm; chưa biết pass rate, ngưỡng 0.75 hoặc must-pass hidden.
 
 ## 5. Công cụ AI đã dùng
 

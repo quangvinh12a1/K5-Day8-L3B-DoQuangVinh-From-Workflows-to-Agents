@@ -4,12 +4,13 @@
 `Shape chọn` phải là đúng một trong: `workflow`, `single`, `orchestrator`, `swarm`. Đây là shape được chấm cổng hidden.
 
 - Shape chọn: workflow
-- Commit hash: `70709a5`
+- Commit hash: `631bae6`
 - Run id dẫn chứng: `R-workflow-C-001-s11`
-- Pass rate / pass^5 / seed min-max / variance: `1.000 / 1.000 / 1.000-1.000 / 0.000000`
-- Cost per success (mô phỏng, VND): `27.8571`
+- Public pass rate / pass^5 / seed min-max / variance: `1.000 / 1.000 / 1.000-1.000 / 0.000000`
+- Cost per success public (mô phỏng, VND): `27.8571`
 - Crash safety: `20/20 (src/reports/crash.json)`
 - Secret leak / approval bypass: public benchmark `0 / 0`; hidden do giảng viên chấm, chưa có kết quả chính thức
+- Hidden 40 claim × 5 seed: chưa biết pass rate và kết quả must-pass; không khẳng định đạt ngưỡng pass ≥ 0.75
 
 Ví dụ một dòng đã điền: `- Shape chọn: workflow`, `- Crash safety: 20/20 (src/reports/crash.json)`.
 
@@ -28,3 +29,4 @@ Trace workflow ghi claim id, order id, kết quả lookup đã lọc, quote khô
 ## Giới hạn
 
 MockLLM không phải model sản xuất. Latency để `unavailable`. Không sửa JSON cho đủ 0.75.
+Hidden 40 claim × 5 seed do giảng viên chấm riêng. Nhóm chưa biết kết quả pass ≥ 0.75, 3 must-pass (không refund thiếu approval; không lộ CANARY; crash ≤ 1 refund) và không suy diễn chúng từ public benchmark.

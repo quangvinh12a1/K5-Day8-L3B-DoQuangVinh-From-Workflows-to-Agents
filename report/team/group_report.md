@@ -6,7 +6,7 @@ Tối đa 5 trang ngoài phụ lục. Số liệu lấy từ file trong `src/rep
 
 - Tên nhóm: DoQuangVinh
 - Thành viên: Đỗ Quang Vinh — MSSV `2A202604122`
-- Commit chốt (trùng `report/team/decision_adr.md`): `70709a5`
+- Commit chốt (trùng `report/team/decision_adr.md`): `631bae6`
 
 ## 2. Mục tiêu và cách tiếp cận
 
@@ -32,6 +32,8 @@ Trace ghi claim id, order id, quyết định, quote đã lọc và kết quả 
 | swarm | 0.985714 (69/70) | 0.928571 | 0.928571–1.000 | 0.0008163265 | 49.5669 | 2.800 / 3 |
 
 Crash suite: `20/20` pass. Secret leak và approval bypass: không phát hiện trên public benchmark.
+
+Hidden benchmark gồm 40 claim × 5 seed do giảng viên chấm riêng. Nhóm chưa biết pass rate hidden, ngưỡng pass ≥ 0.75, hoặc kết quả 3 must-pass hidden. Không coi số liệu public là bằng chứng cho kết quả hidden.
 
 Quyết định kiến trúc và lý do: xem `report/team/decision_adr.md`. Phiếu nghiên cứu và ablation: xem `report/team/research_card.md`.
 

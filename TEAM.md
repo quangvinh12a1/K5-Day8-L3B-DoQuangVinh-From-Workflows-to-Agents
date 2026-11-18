@@ -5,7 +5,7 @@
 - Tên nhóm: DoQuangVinh
 - Lớp: L3B
 - Repo nhóm: `K5-Day8-L3B-DoQuangVinh-From-Workflows-to-Agents`
-- URL repo, nhánh nộp, commit chốt: https://github.com/quangvinh12a1/K5-Day8-L3B-DoQuangVinh-From-Workflows-to-Agents.git, nhánh `main`, commit kỹ thuật `5b0fbc0`
+- URL repo, nhánh nộp, commit chốt: https://github.com/quangvinh12a1/K5-Day8-L3B-DoQuangVinh-From-Workflows-to-Agents.git, nhánh `main`, commit kỹ thuật `70709a5`
 
 ## Thành viên
 

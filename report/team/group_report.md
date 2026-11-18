@@ -6,7 +6,7 @@ Tối đa 5 trang ngoài phụ lục. Số liệu lấy từ file trong `src/rep
 
 - Tên nhóm: DoQuangVinh
 - Thành viên: Đỗ Quang Vinh — MSSV `2A202604122`
-- Commit chốt (trùng `report/team/decision_adr.md`): `5b0fbc0`
+- Commit chốt (trùng `report/team/decision_adr.md`): `70709a5`
 
 ## 2. Mục tiêu và cách tiếp cận
 
